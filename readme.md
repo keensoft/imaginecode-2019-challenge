@@ -60,8 +60,9 @@ Para el desarrollo de la Skill seguiremos tres pasos del nivel superior: **Build
   con Alexa o escribiendo en la caja de texto.
 
 Para facilitar estos pasos, se han hecho capturas del ejemplo de solicitud de los niveles 
-de polen en Zaragoza: [Niveles de polen en Zaragoza - Alexa Skill](./build) y se facilitan 
-los archivos [index.js]() y [package.json](), que ee pueden usar de base en el proyecto:
+de polen en Zaragoza: [Niveles de polen en Zaragoza - Alexa Skill](./skill/build) y se facilitan 
+los archivos [index.js](./skill/code/index.js) y [package.json](./skill/code/package.json), que ee pueden usar de base en el proyecto:
+
 * package.json añade dependencias de librerías para hacer las peticiones a servidor 
   de forma más sencilla (request, request-promise-native).
 * index.json contiene todo el código del ejemplo incluyendo funciones para la petición 
@@ -71,7 +72,7 @@ los archivos [index.js]() y [package.json](), que ee pueden usar de base en el p
 
 ### Interpretación del JSON
 Para facilitar la intepretación de las respuestas de las APIs, se facilita un [proyecto 
-Node.js](./code) con una función similar a la de Alexa. Se puede utilizar este proyecto para 
+Node.js](./json) con una función similar a la de Alexa. Se puede utilizar este proyecto para 
 ir probando la interpretación de los datos recibidos e ir refinándolo hasta que tenemos 
 lo que Alexa debe decir. Una vez definido y probado se puede copiar la parte del código que genera la respuesta 
 a la consola de Alexa en los _handlers_ definidos en la consola.
