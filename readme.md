@@ -60,7 +60,7 @@ Para el desarrollo de la Skill seguiremos tres pasos del nivel superior: **Build
   con Alexa o escribiendo en la caja de texto.
 
 Para facilitar estos pasos, se han hecho capturas del ejemplo de solicitud de los niveles 
-de polen en Zaragoza: [Niveles de polen en Zaragoza - Alexa Skill](./skill/build) y se facilitan 
+de polen en Zaragoza: [Niveles de polen en Zaragoza - Alexa Skill](./skill/config) y se facilitan 
 los archivos [index.js](./skill/code/index.js) y [package.json](./skill/code/package.json), que ee pueden usar de base en el proyecto:
 
 * package.json añade dependencias de librerías para hacer las peticiones a servidor 
